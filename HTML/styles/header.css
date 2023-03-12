@@ -1,0 +1,59 @@
+#header {
+    height: 75px;
+    color: rgba(255, 255, 255, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 23, 23);
+}
+
+#header div {
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 100%;
+    height: 100%;
+}
+
+#header div .left {
+    background: none;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+#header div .left p {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+}
+
+#header div .right {
+    background: none;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+#header div .right button {
+    transition: all 0.75s;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#header div .right button ion-icon {
+    font-size: 48px;
+    color: orangered;
+    pointer-events: none;
+}
+
+#header div .right button:hover {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tutoriel HTML5</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/header.css">
+        <link rel="stylesheet" type="text/css" href="styles/content.css">
+        <link rel="stylesheet" type="text/css" href="styles/code.css">
+        <link rel="icon" type="icon/image" href="images/html5.png">
+        <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                <div class="left">
+                    <p>
+                        <img src="images/html5.png" width="40px">
+                        Tutoriel HTML5
+                    </p>
+                </div>
+                <div class="right">
+                    <button title="Menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <a href="../HomePage/index.html">
+                <button id="return">Revenir</button>
+            </a>
+            <h1>Comment créer un site web</h1>
+            <div id="summary">
+                <fieldset>
+                    <legend>Sommaire</legend>
+                    <ul>
+                        <li><a href="index.html#site">C'est quoi un site web</a></li>
+                        <li><a href="index.html#html">C'est quoi le langage HTML</a></li>
+                        <li><a href="index.html#balises">Les balises</a></li>
+                        <li><a href="index.html#attributs">Les attributs</a></li>
+                        <li><a href="index.html#premier_site">Votre premier site</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div id="site">
+            <h2>C'est quoi un site web</h2>
+                <p>
+                    Un site web ou site, est un ensemble de pages web reliées par des hyperliens et accessible par une adresse 
+                    web. L'adresse web d'un site correspond en fait à l'URL d'une page web prévue pour être la première 
+                    consultée : la page d'accueil. Un site est développé à l'aide de langages de programmation web (comme le 
+                    HTML), puis  hébergé sur un serveur web accessible via le ou n'importe quel réseau.
+                </p>
+            </div>
+            <div id="html">
+                <h2>C'est quoi le langage HTML</h2>
+                <p>
+                    Le langage <abbr title="HyperText Markup Language">HTML</abbr> est un langage de 
+                    balisage conçu pour créer des pages web. Sa version la plus récente est HTML5 de logo 
+                    <img src="images/html5.png" width="20" height="20">.Ce langage permet de  structurer 
+                    sémantiquement une page web, de mettre en forme du contenu, de créer des formulaires ou
+                    encore d'inclure des ressources multimédias dont des images, des vidéos... Il est 
+                    directement compilé par le navigateur web sans avoir besoin de l'installer. Il est 
+                    majoritairement joint de <abbr title="Cascading Style Sheets">CSS</abbr> pour les styles
+                    et de <abbr title="JavaScript">JS</abbr> pour le rendre dynamique. L'extension d'un 
+                    fichier HTML est <code class="extension">.htm</code> ou 
+                    <code class="extension">.html</code>.
+                </p>
+            </div>
+            <div id="balises">
+                <h2>Les balises</h2>
+                <p>
+                    Pour écrire en langage HTML, on a besoin de balises. Une balise est une marque qui permet
+                    d'identifier la fonction d'un élément. Il existe deux types de balises:
+                </p>
+                <ul>
+                    <li>
+                        <h3 class="underlined bold">Balises appariées: </h3>
+                        <p>Blablbla</p>
+                        <div class="code --html">
+                            <span class="delimiter"><</span><span class="tag">!DOCTYPE</span> <span class="attribute">html</span><span class="delimiter">></span><br />
+                            <span class="delimiter"><</span><span class="tag">html</span><span class="delimiter">></span><br />
+                            <span class="delimiter">&nbsp <</span><span class="tag">head</span><span class="delimiter">></span><br />
+                            <span class="delimiter">&nbsp &nbsp <</span><span class="tag">title</span><span class="delimiter">></span>ABCD<span class="delimiter"><</span><span class="tag">/title</span><span class="delimiter">></span><br />
+                            <span class="delimiter">&nbsp <</span><span class="tag">/head</span><span class="delimiter">></span><br />
+                            <span class="delimiter">&nbsp <</span><span class="tag">body</span><span class="delimiter">></span><br />
+                            <span class="delimiter">&nbsp <</span><span class="tag">/body</span><span class="delimiter">></span><br />
+                            <span class="delimiter"><</span><span class="tag">/html</span><span class="delimiter">></span><br />
+                        </div>
+                        <div class="code --css">
+                            <span class="comment">#This is a comment</span><br />
+                            a <span class="delimiter">{</span><br />
+                            <span class="proprety">&nbsp color</span><span class="delimiter">:</span> <span class="value">red</span><span class="delimiter">;</span><br />
+                            <span class="delimiter">}</span><br />
+                            <span class="comment">#This is another comment</span>
+                        </div>
+                    </li>
+                    <li><h3 class="underlined bold">Balises non appariées ou auto-fermantes: </h3></li>
+                </ul>
+            </div>
+            <div id="attributs">
+                <h2>Les attributs</h2>
+                <p>
+                    Un site web ou site, est un ensemble de pages web reliées par des hyperliens et accessible par une adresse 
+                    web. L'adresse web d'un site correspond en fait à l'URL d'une page web prévue pour être la première 
+                    consultée : la page d'accueil. Un site est développé à l'aide de langages de programmation web (comme le 
+                    HTML), puis  hébergé sur un serveur web accessible via le ou n'importe quel réseau.
+                </p>
+            </div>
+            <div id="premier_site">
+                <h2>Votre premier site</h2>
+                <p>
+                    Un site web ou site, est un ensemble de pages web reliées par des hyperliens et accessible par une adresse 
+                    web. L'adresse web d'un site correspond en fait à l'URL d'une page web prévue pour être la première 
+                    consultée : la page d'accueil. Un site est développé à l'aide de langages de programmation web (comme le 
+                    HTML), puis  hébergé sur un serveur web accessible via le ou n'importe quel réseau.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

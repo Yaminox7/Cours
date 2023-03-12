@@ -1,0 +1,58 @@
+.code {
+    line-height: 1.5;
+    width: auto;
+    padding: 8px 12px;
+    margin-top: 16px;
+    background-color: rgb(21,32,43);
+    margin-bottom: 16px;
+    word-wrap: break-word;
+    color: white;
+    border-left-color: rgb(40,44,52);
+    font-size: 20px;
+    font-family: Consolas, Menlo, "courier new", monospace;
+    width: 762.98px;
+}
+
+.code.--html {
+    color: #fff;
+}
+
+.code.--html .comment {
+    color: #999 !important;
+}
+
+.code.--html .delimiter {
+    color: #88ccbb !important;
+}
+
+.code.--html .attribute {
+    color: #c5a5c5 !important;
+}
+
+.code.--html .value {
+    color: #88c999 !important;
+}
+
+.code.--html .tag {
+    color: #ff9999 !important;
+}
+
+.code.--css {
+    color: #ff9999;
+}
+
+.code.--css .comment {
+    color: #999 !important;
+}
+
+.code.--css .delimiter {
+    color: #fff !important;
+}
+
+.code.--css .proprety {
+    color: #c5a5c5 !important;
+}
+
+.code.--css .value {
+    color: #88c999 !important;
+}

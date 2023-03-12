@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+}
+
+p, h1, h2, fieldset {
+    cursor: context-menu;
+}
+
+div {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255, 0.0);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-top: 75px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 255, 255, 0.15); 
+  background-clip: content-box;
+}
+
+abbr {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: help;
+}
+
+abbr:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.extension {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(230, 0, 0);
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 0 5px 0 2.5px;
+}

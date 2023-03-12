@@ -1,0 +1,86 @@
+#content h1, #content h2 {
+    margin-left: 7.5px;
+    font-weight: bold;
+}
+
+#content p {
+    margin-left: 15px;
+    text-indent: 12.5px;
+}
+
+#summary {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+#summary ul {
+    margin-left: 20px;
+}
+
+#return {
+    color: #fff;
+    background-color: rgb(4, 170, 109);
+    width: fit-content;
+    height: 42px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 8px 25px;
+    transition: all 0.5s;
+}
+
+#return:hover {
+    background-color: rgb(5, 152, 98);
+    transform: translateY(-3px);
+}
+
+#return:active {
+    background-color: rgb(4, 161, 103);
+}
+
+legend {
+    margin-left: 7.5px;
+}
+
+fieldset {
+    padding: 7.5px 0 15px 0;
+    margin-left: 5px;
+    background-color: #ffffff0d;
+    width: 400px;
+    max-width: 400px;
+    min-width: 320px;
+}
+
+#content div {
+    margin-bottom: 20px;
+}
+
+div h2 {
+    margin-bottom: 5px;
+}
+
+#site::before, #html::before, #balises::before, #attributs::before, #premier_site::before {
+    content: "";
+    display: block;
+    margin: -4.15em 0 0;
+    height: 4.15em;
+}
+
+#content div ul li {
+    margin-top: 7.5px;
+    margin-left: 40px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: 600;
+}
